@@ -16,8 +16,6 @@ using namespace std;
 
 /*
  * 5 - Smallest Multiple
- *
- * Answer: 232792560
  */
 
 bool isValid(int n);

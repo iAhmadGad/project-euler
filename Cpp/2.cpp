@@ -16,8 +16,6 @@ using namespace std;
 
 /*
  * 2 - Even Fibonacci Numbers
- *
- * Answer: 4613732
  */
 
 int main()

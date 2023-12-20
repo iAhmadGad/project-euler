@@ -16,8 +16,6 @@ using namespace std;
 
 /*
  * 6 - Sum Square Difference
- *
- * Answer: 25164150
  */
 
 int main()

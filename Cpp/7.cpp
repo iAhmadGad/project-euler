@@ -13,8 +13,6 @@ using namespace std;
 
 /*
  * 7 - 10001st Prime
- *
- * Answer: 104743
  */
 
 bool isPrime(ll n);
