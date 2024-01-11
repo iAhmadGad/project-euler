@@ -11,16 +11,20 @@ bool isPalindrome(int n);
 
 int main()
 {
-  int i = 0, n[] = {999, 999}, f = n[0] * n[1];
+  int l = -1;
 
-  while(!isPalindrome(f))
+  for(int i = 999; i >= 100; i--)
   {
-    n[0]--;
-    i = i == 0 ? 1 : 0;
-    f = n[0] * n[1];
+    if(l >= i * 999)
+      break;
+    for(int j = 999; j >= 100; j--)
+    {
+      int p = i * j;
+      l = l < p && isPalindrome(p) ? p : l;
+    }  
   }
-
-  cout << n[0] << " " << n[1] << " " << f << endl;
+  
+  cout << l << endl;
   return 0;
 }
 
