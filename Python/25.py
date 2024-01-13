@@ -9,4 +9,5 @@ while b < pow(10, 999):
     a = b
     b += tmp
     i += 1
+    
 print(i)
